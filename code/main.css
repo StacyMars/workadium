@@ -1,0 +1,386 @@
+body {
+    font-family: 'Gotham Pro', sans-serif;
+    color: black;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #27273e;
+    height: 77px;
+    width: 100%;
+    margin: 0;
+}
+
+.header__container {
+    position: relative;
+}
+
+.header__logo {
+    position: absolute;
+    top: 10px;
+    left: 18px;
+}
+
+.contacts {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.contacts__phone {
+    color: white;
+    font-size: 21px; 
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contacts__schedule {  
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgba(236, 30, 121, 0.702);
+    text-decoration: underline; 
+}
+
+.billboard {
+    background: #27273e;
+    width: 100%;
+    margin: 0 0 68px 0;
+}
+
+.sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 14%;
+    margin: 0 1% 0 0;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: top;
+    width: 84%;
+    margin: 0;
+}
+
+.menu__item {
+    margin-bottom: 33px;
+}
+
+.menu__item:last-child {
+    margin-bottom: 0;
+}
+
+.menu__item-text {
+    color: #ec1e79;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+}
+
+.menu__item-text:hover {
+    color: black;
+}
+
+.menu__item-text--unactive {
+    color: black;
+}
+
+.menu__item-text:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    margin-right: 17px;
+    background: center center no-repeat;
+    vertical-align: bottom;
+}
+
+.menu__item-text--main:before {
+    background-image: url(/img/main_icon.png);
+}
+
+.menu__item-text--review:before {
+    background-image: url(/img/reveiw_icon.png);
+}
+
+.menu__item-text--review:hover:before {
+    background-image: url(/img/reveiw_icon_black.png);
+}
+
+.menu__item-text--price:before {
+    background-image: url(/img/price_icon.png);
+}
+
+.menu__item-text--price:hover:before {
+    background-image: url(/img/price_icon_black.png);
+}
+
+.section-title {
+    font-size: 49px;
+    color: #221f1f;
+    font-weight: bold;
+    margin-bottom: 64px;
+}
+
+.features {
+    margin-bottom: 68px;
+}
+
+.features__item {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 3% 0 0;
+}
+
+.features__item:last-child {
+    margin-right: 0;
+}
+
+.features__img {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 36px;
+    background: center no-repeat #27273e;
+    position: relative;
+}
+
+.img__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.features__subtitle {
+    font-size: 11px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.features__description {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 28px;
+    font-weight: 300;
+}
+
+.features__profit-list {
+    padding-left: 46px;
+    font-weight: 300;
+}
+
+.profit__list-item {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.profit__list-item:before {
+    content: '•';
+    color: #ec1e79;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.news__list {
+    margin-bottom: 75px;
+}
+
+.news .section-title {
+    margin-bottom: 75px;
+}
+
+.news__item-picture {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 18px;
+}
+
+.news__item-img {
+    max-width: 100%;
+    display: block;
+}
+
+.news__item-description {
+    display: inline-block;
+    width: 75%;
+    vertical-align: middle;
+}
+
+.news__item-date {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 21px;
+    margin-bottom: 14px;    
+}
+
+.news__item-subtitle {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.news__item-text {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.news__item {
+    border-bottom: 1px solid #f5f5f5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.news__item:first-child {
+    padding-top: 0;
+}
+
+.news__item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.pagination {
+	font-size: 14px;
+	justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.pagination__list {
+    display: flex;
+}
+
+.pagination__pages {
+	margin-right: 20px;
+}
+
+.pagination__item {
+	padding: 10px;
+	margin-right: 8px;
+	font-weight: 700;
+}
+
+.pagination__item:hover {
+	border-radius: 4px;
+    background: #27273e;
+}
+
+.pagination__item a:hover {
+    color: white;
+}
+
+.footer {
+    background: #27273e;
+    width: 100%;
+    height: 77px;
+    margin: 0;
+}
+
+.footer__container {
+    position: relative;
+}
+
+.madeby {
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    top: 14px;
+    left: 20px;
+    text-align: left;
+    width: 270px;
+}
+
+.footer__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 14px;
+}
+
+.social {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+    width: 270px;
+}
+
+.social__title {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 8px;
+}
+
+.social__list-item {
+    display: inline-block;
+}
+
+.social__icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: #d4d4d8;
+    background: center no-repeat #d4d4d8;
+    position: relative;
+}
+
+.social__icon:hover {
+    background: #ec1e79;
+}
+
+.social__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
