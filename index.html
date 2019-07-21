@@ -15,16 +15,16 @@
    <div class="wrapper">
 
         <header class="header">        
-            <div class="container">
-                <div class="header__container">
-                    <a class="header__logo" href="#">
-                        <img class="header__logo-img" src="./img/logo-fig.png" alt="Коворкинг">
-                    </a>
-                    <address class="contacts">
-                        <a class="contacts__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
-                        <div class="contacts__schedule">График работы</div>
-                    </address>   
-                </div> 
+            <div class="container header__container">
+                
+                <a class="header__logo" class="header__item" href="#">
+                    <img class="header__logo-img" src="./img/logo-fig.png" alt="Коворкинг">
+                </a>
+                <address class="contacts">
+                    <a class="contacts__phone" class="header__item" href="tel:+78000039210">8 (800) 00-392-10</a>
+                    <div class="contacts__schedule">График работы</div>
+                </address>  
+               
             </div>        
         </header>
 
@@ -38,21 +38,21 @@
                     
         <div class="page">          
 
-            <div class="container">
+            <div class="container page__container">
 
                 <aside class="sidebar">
                     <nav class="menu">               
                         <ul class="menu__list">
                             <li class="menu__item">
-                                <img class="menu__item-icon" src="" alt="">
+                                <img src="" alt="">
                                 <a class="menu__item-text menu__item-text--main menu__item-text--unactive" href="#">ГЛАВНАЯ</a>
                             </li>
                             <li class="menu__item">
-                                <img class="menu__item-icon" src="" alt="">
+                                <img src="" alt="">
                                 <a class="menu__item-text menu__item-text--review" href="#">ОТЗЫВЫ</a>   
                             </li>                     
                             <li class="menu__item">
-                                <img class="menu__item-icon" src="" alt="">
+                                <img src="" alt="">
                                 <a class="menu__item-text menu__item-text--price" href="#">ТАРИФЫ</a>    
                             </li>                     
                         </ul>
@@ -125,7 +125,7 @@
 
                     </div>
             
-                    <div class="news">
+                    <section class="news">
     
                         <h2 class="section-title">Последние новости</h2>
     
@@ -170,7 +170,7 @@
                         <div class="pagination">
                             <div class="pagination__pages">Страница 1 из 7</div>
                             <div class="pagination__control">
-                                <a href="#" class="pagination__prev"></a>
+                                <a href="#" class="pagination__prev"> < </a>
                                 <ul class="pagination__list">
                                     <li class="pagination__item">
                                         <a href="#" class="pagination__item-link">1</a>
@@ -194,11 +194,11 @@
                                         <a href="#" class="pagination__item-link">7</a>
                                     </li>                                                                                                               
                                 </ul>
-                                <a href="#" class="pagination__next"></a>
+                                <a href="#" class="pagination__next"> > </a>
                             </div>
                         </div>
             
-                    </div>
+                    </section>
     
                 </main>
 
@@ -207,52 +207,52 @@
         </div>
         
         <footer class="footer">
-            <div class="container">
-                <div class="footer__container">
-                    <p class="madeby">Сделано с любовью и старанием на курсе «HTML + CSS» в <b>LoftSchool</b>. Автор работы: <b>Власова Анастасия</b></p>
-                    <a class="footer__logo" href="#">
-                        <img class="footer__logo-img" src="./img/logo-fig.png" alt="Коворкинг">
-                    </a>
-                    <div class="social">
-        
-                        <div class="social__title">Наши социальные сети</div>
-        
-                        <ul class="social__list">
-        
-                            <li class="social__list-item">
-                                <a class="social__icon" href="www.vk.com">
-                                    <img class="social__logo" src="./img/vk.png" alt="ВК">
-                                </a>
-                            </li>
-        
-                            <li class="social__list-item">
-                                <a class="social__icon" href="www.facebook.com">
-                                    <img class="social__logo" src="./img/fb.png" alt="FB">
-                                </a>
-                            </li>
-        
-                            <li class="social__list-item">
-                                <a class="social__icon" href="wwwgoogle.com">
-                                    <img class="social__logo" src="./img/google.png" alt="G+">
-                                </a>
-                            </li>
-        
-                            <li class="social__list-item">
-                                <a class="social__icon" href="www.twitter.com">
-                                    <img class="social__logo" src="./img/twitter.png" alt="T">
-                                </a>
-                            </li>
-        
-                            <li class="social__list-item">
-                                <a class="social__icon" href="www.mail.ru">
-                                    <img class="social__logo" src="./img/mail.png" alt="M">
-                                </a>
-                            </li>
-                                
-                        </ul>
-                        
-                    </div>   
-                </div>
+            <div class="container footer__container">
+                
+                <p class="madeby">Сделано с любовью и старанием на курсе «HTML + CSS» в <b>LoftSchool</b>. Автор работы: <b>Власова Анастасия</b></p>
+                <a class="footer__logo" href="#">
+                    <img src="./img/logo-fig.png" alt="Коворкинг">
+                </a>
+                <div class="social">
+    
+                    <div class="social__title">Наши социальные сети</div>
+    
+                    <ul class="social__list">
+    
+                        <li class="social__list-item">
+                            <a class="social__icon" href="www.vk.com">
+                                <img class="social__logo" src="./img/vk.png" alt="ВК">
+                            </a>
+                        </li>
+    
+                        <li class="social__list-item">
+                            <a class="social__icon" href="www.facebook.com">
+                                <img class="social__logo" src="./img/fb.png" alt="FB">
+                            </a>
+                        </li>
+    
+                        <li class="social__list-item">
+                            <a class="social__icon" href="wwwgoogle.com">
+                                <img class="social__logo" src="./img/google.png" alt="G+">
+                            </a>
+                        </li>
+    
+                        <li class="social__list-item">
+                            <a class="social__icon" href="www.twitter.com">
+                                <img class="social__logo" src="./img/twitter.png" alt="T">
+                            </a>
+                        </li>
+    
+                        <li class="social__list-item">
+                            <a class="social__icon" href="www.mail.ru">
+                                <img class="social__logo" src="./img/mail.png" alt="M">
+                            </a>
+                        </li>
+                            
+                    </ul>
+                    
+                </div>   
+                
             </div>
         </footer>    
 
