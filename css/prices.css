@@ -214,6 +214,9 @@ ul > li {
 .prices__item-picture:before {
     content: '';
     display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
     background-color: center no-repeat #27273e;
     opacity: .8;
     width: 100%;
