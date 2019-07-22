@@ -432,12 +432,46 @@ ul > li {
     margin-bottom: 15px;
 }
 
-.form__radio-list {
+.form__radio-answer {
     display: flex;
 }
 
-.form__radio-item {
+.form__radio-yesorno {
+    display: flex;
     margin-right: 20px;
+}
+
+.form__radio-input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.input__fake {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #cbcbcb;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.form__radio-input:checked + .input__fake {
+    border: 1px solid #ec1e79;
+}
+
+.input__fake:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: block;
+}
+
+.form__radio-input:checked + .input__fake:before {
+    background-color: #ec1e79;
 }
 
 .form__btn {

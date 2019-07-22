@@ -198,6 +198,7 @@ ul > li {
 
 .prices__item-picture {
     position: relative;
+    display: block;
     width: 250px;
     height: 153px;
     margin: 0 auto;
