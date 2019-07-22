@@ -118,23 +118,23 @@ ul > li {
 }
 
 .menu__item-text--main:before {
-    background-image: url(/img/main_icon_pink.png);
+    background-image: url(../img/main_icon_pink.png);
 }
 
 .menu__item-text--main:hover:before {
-    background-image: url(/img/main_icon_black.png);
+    background-image: url(../img/main_icon_black.png);
 }
 
 .menu__item-text--review:before {
-    background-image: url(/img/reveiw_icon_black.png);
+    background-image: url(../img/reveiw_icon_black.png);
 }
 
 .menu__item-text--price:before {
-    background-image: url(/img/price_icon_pink.png);
+    background-image: url(../img/price_icon_pink.png);
 }
 
 .menu__item-text--price:hover:before {
-    background-image: url(./img/price_icon_black.png);
+    background-image: url(../img/price_icon_black.png);
 }
 
 .breadcrumbs__list {
@@ -339,7 +339,7 @@ ul > li {
     display: flex;
     justify-content: center;
     min-height: 175px;    
-    background: url(/img/break.jpg) center #27273e;
+    background: url(../img/break.jpg) center #27273e;
     margin-bottom: 58px;
 }
 

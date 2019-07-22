@@ -118,23 +118,23 @@ ul > li {
 }
 
 .menu__item-text--main:before {
-    background-image: url(/img/main_icon_pink.png);
+    background-image: url(../img/main_icon_pink.png);
 }
 
 .menu__item-text--main:hover:before {
-    background-image: url(/img/main_icon_black.png);
+    background-image: url(../img/main_icon_black.png);
 }
 
 .menu__item-text--review:before {
-    background-image: url(/img/reveiw_icon_pink.png);
+    background-image: url(../img/reveiw_icon_pink.png);
 }
 
 .menu__item-text--review:hover:before {
-    background-image: url(/img/reveiw_icon_black.png);
+    background-image: url(../img/reveiw_icon_black.png);
 }
 
 .menu__item-text--price:before {
-    background-image: url(/img/price_icon_black.png);
+    background-image: url(../img/price_icon_black.png);
 }
 
 .breadcrumbs__list {
@@ -178,120 +178,6 @@ ul > li {
     font-weight: bold;
     margin-bottom: 64px;
 }
-
-/*
-.prices__list {
-    margin-bottom: 60px;
-}
-
-.prices, .section-title {
-    margin-bottom: 50px;
-}
-
-.prices__item {
-    display: flex;
-    align-items: center;
-}
-
-.prices__item-picture {
-    height: 160px;
-    width: 160px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 20px;
-}
-
-.prices__item-img {
-    max-width: 100%;
-    display: block;
-}
-
-.prices__icon {
-    display: block;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    margin-right: 20px;
-    background: center no-repeat #f5f5f5;
-    position: relative;
-}
-
-.prices__icon-logo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-
-.prices__item-description {
-    width: 75%;
-    vertical-align: middle;
-}
-
-.prices__item-date {
-    font-family: 'Gotham Pro';
-    font-size: 14px;
-    font-weight: lighter;
-    margin-bottom: 14px;    
-}
-
-.prices__item-subtitle {
-    font-family: 'Gotham Pro';
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 21px;
-    margin-bottom: 23px; 
-}
-
-.prices__item-text {
-    font-family: 'Gotham Pro';
-    font-size: 18px;
-    font-weight: lighter;
-    line-height: 30px;
-}
-
-.prices__item {
-    border-bottom: 1px solid #f5f5f5;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.prices__item:first-child {
-    padding-top: 0;
-}
-
-.prices__item:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-*/
-
-/*
-.prices__list {
-    display: flex;
-    justify-content: space-between;
-}
-
-.prices__item-picture {
-    max-width: 250px;
-    max-height: 153px;
-}
-
-.prices__item-img {
-    display: block;
-}
-
-.partners__list {
-    max-width: 700px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-*/
 
 .prices {
     margin-bottom: 68px;
