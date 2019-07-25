@@ -1,0 +1,20 @@
+.header__common {
+    background: #27273e;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 68px;
+}
+
+.header__mainpage {
+    background: #27273e;
+    width: 100%;
+    margin: 0;
+}
+
+.header__container {
+    margin-top: 0;
+    min-height: 77px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

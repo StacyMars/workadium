@@ -1,0 +1,86 @@
+.reviews__list {
+    margin-bottom: 60px;
+}
+
+.reviews, .section-title {
+    margin-bottom: 50px;
+}
+
+.reviews__item {
+    display: flex;
+}
+
+.reviews__item-picture {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.reviews__item-img {
+    max-width: 100%;
+    display: block;
+}
+
+.reviews__icon {
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: center no-repeat #f5f5f5;
+    position: relative;
+}
+
+.reviews__icon-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.reviews__item-description {
+    width: 75%;
+    vertical-align: middle;
+}
+
+.reviews__item-date {
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    font-weight: lighter;
+    margin-bottom: 14px;    
+}
+
+.reviews__item-subtitle {
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    margin-bottom: 23px; 
+}
+
+.reviews__item-text {
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.reviews__item {
+    border-bottom: 1px solid #f5f5f5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.reviews__item:first-child {
+    padding-top: 0;
+}
+
+.reviews__item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}

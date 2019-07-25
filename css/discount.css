@@ -1,0 +1,26 @@
+.discount {
+    display: flex;
+    justify-content: center;
+    min-height: 175px;    
+    background: url(../img/break.jpg) center #27273e;
+    margin-bottom: 58px;
+}
+
+.discount__container {
+    padding: 48px 0;
+}
+
+.discount__text {
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: lighter;
+    color: #fff;
+    margin: 0 auto;
+    width: 56%;
+    vertical-align: middle;
+}
+
+.discount__pink {
+    color: #ec1e79;
+}
