@@ -32,23 +32,3 @@
     background: center center no-repeat;
     vertical-align: bottom;
 }
-
-.menu__item-text--main:before {
-    background-image: url(../img/main_icon_black.png);
-}
-
-.menu__item-text--review:before {
-    background-image: url(../img/reveiw_icon_pink.png);
-}
-
-.menu__item-text--review:hover:before {
-    background-image: url(../img/reveiw_icon_black.png);
-}
-
-.menu__item-text--price:before {
-    background-image: url(../img/price_icon_pink.png);
-}
-
-.menu__item-text--price:hover:before {
-    background-image: url(../img/price_icon_black.png);
-}
