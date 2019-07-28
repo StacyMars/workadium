@@ -1,5 +1,8 @@
 .contacts {
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .contacts__phone {
@@ -10,11 +13,75 @@
     text-transform: uppercase;
 }
 
-.contacts__schedule {  
+.contacts__schedule {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contacts__schedule:hover .dropdown {
+    display: block;
+}
+
+.schedule {  
     font-size: 14px;
     font-family: 'Open Sans';
     font-weight: 700;
     font-style: normal;
     color: rgba(236, 30, 121, 0.702);
-    text-decoration: underline; 
+    transition: .3s;
 }
+
+.schedule:hover {  
+    color: #7c7fa7;
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+}
+
+.dropdown__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.triangle {
+    border: 12px solid transparent;
+    width: 0;
+    height: 0;
+    border-right-color: white;
+    border-bottom-color: white;
+    top: 100%;
+    right: 0;
+}
+
+.square {
+    background: white;
+    border: 1px solid #cbd2e0;
+    border-radius: 5px;
+    width: 162px;
+    top: 100%;
+    padding: 15px 8px;
+}
+
+.dropdown__item {
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    font-style: normal;
+    text-align: left;
+}
+
+.dropdown__item--work {
+    font-weight: bold;
+    color: #ec1e79;
+}
+
+.dropdown__item--lunch {
+    font-weight: lighter;
+    color: black;
+}
+
