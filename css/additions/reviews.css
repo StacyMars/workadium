@@ -1,3 +1,9 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
 .reviews__list {
     margin-bottom: 60px;
 }
