@@ -26,39 +26,75 @@
                    
                 </div>        
             </header>
-                     
+
             <div class="page">          
     
                 <div class="container page__container">
     
-                        <aside class="sidebar">
-                            <nav class="menu">               
-                                <ul class="menu__list">
-                                    <li class="menu__item">
-                                        <a class="menu__item-text menu__item-text--main" href="index.html">ГЛАВНАЯ</a>
-                                    </li>
-                                    <li class="menu__item">
-                                        <a class="menu__item-text menu__item-text--review menu__item-text--unactive" href="comments.html">ОТЗЫВЫ</a>   
-                                    </li>                     
-                                    <li class="menu__item">
-                                        <a class="menu__item-text menu__item-text--price" href="prices.html">ТАРИФЫ</a>    
-                                    </li>                     
-                                </ul>
-                            </nav>
-                        </aside>
+                    <aside class="sidebar">
+                        
+                        <div class="discount">
+                            
+                            <div class="discount__text">Для наших новых клиентов мы предлагаем <b class="discount__pink">скидку 50%</b> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+                            </div> 
+                            
+                        </div>
+
+                        <div class="social">
+    
+                            <div class="social__title">Наши социальные сети</div>
+            
+                            <ul class="social__list">
+            
+                                <li class="social__list-item">
+                                    <a class="social__icon" href="http://www.vk.com">
+                                        <img class="social__logo" src="img/vk.png" alt="ВК">
+                                    </a>
+                                </li>
+            
+                                <li class="social__list-item">
+                                    <a class="social__icon" href="http://www.facebook.com">
+                                        <img class="social__logo" src="img/fb.png" alt="FB">
+                                    </a>
+                                </li>
+            
+                                <li class="social__list-item">
+                                    <a class="social__icon" href="http://www.google.com">
+                                        <img class="social__logo" src="img/google.png" alt="G+">
+                                    </a>
+                                </li>
+            
+                                <li class="social__list-item">
+                                    <a class="social__icon" href="http://www.twitter.com">
+                                        <img class="social__logo" src="img/twitter.png" alt="T">
+                                    </a>
+                                </li>
+            
+                                <li class="social__list-item">
+                                    <a class="social__icon" href="http://www.mail.ru">
+                                        <img class="social__logo" src="img/mail.png" alt="M">
+                                    </a>
+                                </li>
+                                    
+                            </ul>
+                            
+                        </div>   
+                
+                    </aside>
     
                     <main class="content">
     
-                        <nav class="breadcrumbs">
-                            <ul class="breadcrumbs__list">
-    
-                                <li class="breadcrumbs__item">
-                                    <a href="index.html" class="breadcrumbs__link">Главная</a>
+                        <nav class="menu__">               
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a class="menu__item-text menu__item-text--main" href="index.html">ГЛАВНАЯ</a>
                                 </li>
-                                <li class="breadcrumbs__item">
-                                    <a href="comments.html" class="breadcrumbs__link breadcrumbs__link--unactive">Отзывы</a>
-                                </li>
-    
+                                <li class="menu__item">
+                                    <a class="menu__item-text menu__item-text--review menu__item-text--unactive" href="comments.html">ОТЗЫВЫ</a>   
+                                </li>                     
+                                <li class="menu__item">
+                                    <a class="menu__item-text menu__item-text--price" href="prices.html">ТАРИФЫ</a>    
+                                </li>                     
                             </ul>
                         </nav>
         
@@ -147,82 +183,12 @@
                         </section>
         
                     </main>
-                       
-                </div>
-                
-                <div class="discount">
-                    <div class="container discount__container">
-                        <div class="discount__text">Для наших новых клиентов мы предлагаем <b class="discount__pink">скидку 50%</b> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
-                        </div> 
-                    </div> 
+    
                 </div>
     
-                <div class="container">
-                    <section class="form-section">
-        
-                        <div class="form">
-        
-                            <h2 class="form__title">
-                                Оставить отзыв
-                            </h2>
-        
-                            <form action="" class="form__items" method="POST">
-        
-                                <div class="form__row">
-                                    <label class="form__block">
-                                        <div class="form__block-title">Ваше имя</div>
-                                        <input placeholder="Андрей" type="text" class="form__input" name="" id="">
-                                    </label>
-                                    <label class="form__block">
-                                        <div class="form__block-title">Ссылка на профиль VK</div>
-                                        <input placeholder="vk.com/example" type="text" class="form__input" name="" id="">
-                                    </label>
-                                </div>
-                                <div class="form__row">
-                                    <label class="form__block">
-                                        <div class="form__block-title">Текст отзыва</div>
-                                        <textarea placeholder="Мне понравилось" name="" class="form__input form__input-textarea"></textarea>
-                                    </label>
-                                </div>
-    
-                                <div class="form__row form__buttons">
-    
-                                    <div class="form__buttons-left">
-    
-                                        <div class="form__radio-question">
-                                            Отображать фото в отзыве?
-                                        </div>
-    
-                                        <div class="form__radio-answer">
-    
-                                            <label class="form__radio-yesorno">
-                                                <input class="form__radio-input" type="radio" name="yesorno">
-                                                <div class="input__fake"></div>
-                                                <div class="input__title">Да</div>
-                                            </label>
-    
-                                            <label class="form__radio-yesorno">
-                                                <input class="form__radio-input" type="radio" name="yesorno">
-                                                <div class="input__fake"></div>
-                                                <div class="input__title">Нет</div>
-                                            </label>
-    
-                                        </div>
-    
-                                    </div>
-                                    
-                                    <button type="submit" class="form__btn">Отправить</button>
-                                </div>
-                                                        
-        
-                            </form>
-        
-                        </div>
-        
-                    </section>
-                </div>
-                        
             </div>
+                     
+            
         </div>
         
         <footer class="footer">
@@ -232,45 +198,7 @@
                 <a class="footer__logo" href="index.html">
                     <img src="img/logo-fig.png" alt="Коворкинг">
                 </a>
-                <div class="social">
-    
-                    <div class="social__title">Наши социальные сети</div>
-    
-                    <ul class="social__list">
-    
-                        <li class="social__list-item">
-                            <a class="social__icon" href="http://www.vk.com">
-                                <img class="social__logo" src="img/vk.png" alt="ВК">
-                            </a>
-                        </li>
-    
-                        <li class="social__list-item">
-                            <a class="social__icon" href="http://www.facebook.com">
-                                <img class="social__logo" src="img/fb.png" alt="FB">
-                            </a>
-                        </li>
-    
-                        <li class="social__list-item">
-                            <a class="social__icon" href="http://www.google.com">
-                                <img class="social__logo" src="img/google.png" alt="G+">
-                            </a>
-                        </li>
-    
-                        <li class="social__list-item">
-                            <a class="social__icon" href="http://www.twitter.com">
-                                <img class="social__logo" src="img/twitter.png" alt="T">
-                            </a>
-                        </li>
-    
-                        <li class="social__list-item">
-                            <a class="social__icon" href="http://www.mail.ru">
-                                <img class="social__logo" src="img/mail.png" alt="M">
-                            </a>
-                        </li>
-                            
-                    </ul>
-                    
-                </div>   
+                
                 
             </div>
         </footer>    

@@ -1,0 +1,49 @@
+.headermenu__item-text {
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 90px;
+}
+
+.headermenu__item-text:hover {
+    color: #ec1e79;
+}
+
+.headermenu__item-text--unactive {
+    color: #ec1e79;
+}
+
+.headermenu__item-text:before {
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 18px;
+    margin-right: 17px;
+    background: url(../../img/menu_sprites.png) center center no-repeat;
+    vertical-align: bottom;
+}
+
+.headermenu__item-text--main:before {
+    background-position: -90px -10px;
+}
+
+.headermenu__item-text--review:before {
+    background-position: -50px -10px;
+}
+
+.headermenu__item-text--review:hover:before {
+    background-position: -10px -10px;
+}
+
+.headermenu__item-text--price:before {
+    background-position: -49px -48px;
+}
+
+.headermenu__item-text--price:hover:before {
+    background-position: -10px -48px;
+}
