@@ -40,6 +40,7 @@
 .dropdown {
     position: absolute;
     display: none;
+    top: 20px;
 }
 
 .dropdown__menu {
@@ -61,11 +62,12 @@
 
 .square {
     background: white;
-    border: 1px solid #cbd2e0;
+    border: 1px solid white;
     border-radius: 5px;
     width: 162px;
     top: 100%;
     padding: 15px 8px;
+    margin: -2px;
 }
 
 .dropdown__item {
