@@ -1,6 +1,7 @@
 @import url(./layout/fonts.css);
 @import url(./layout/normalize.css);
 @import url(./layout/base.css);
+@import url(./additions/hello.css);
 @import url(./additions/header.css);
 @import url(./additions/logo.css);
 @import url(./additions/navigation.css);
@@ -8,8 +9,16 @@
 @import url(./additions/contacts.css);
 @import url(./additions/billboard.css);
 @import url(./additions/content.css);
-@import url(./additions/features.css);
+@import url(./additions/sidebar.css);
 @import url(./additions/social.css);
+@import url(./additions/features.css);
+@import url(./additions/discount.css);
+@import url(./additions/tariffs.css);
+@import url(./additions/navigation.css);
+@import url(./additions/nav_main.css);
+@import url(./additions/reviews.css);
 @import url(./additions/news.css);
+@import url(./additions/partners.css);
 @import url(./additions/pagination.css);
+@import url(./additions/form.css);
 @import url(./additions/footer.css);

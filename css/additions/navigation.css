@@ -11,8 +11,11 @@
 .menu__item {
     display: flex;
     align-items: center;
-    margin-left: 5px;
     margin-right: 95px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
 }
 
 .menu__item-text {
@@ -25,11 +28,11 @@
     align-items: center;
 }
 
-.menu__item-text:hover {
+.menu__item-text.menu__item-text--active {
     color: black;
 }
 
-.menu__item-text--unactive {
+.menu__item-text:hover {
     color: black;
 }
 
@@ -41,4 +44,36 @@
     margin-right: 17px;
     background: url(../../img/sidebar_sprites.png) center center no-repeat;
     vertical-align: bottom;
+}
+
+.menu__item--main:before {
+    background-position: -90px -45px;
+}
+
+.menu__item--main:hover:before {
+    background-position: -90px -10px;
+}
+
+.menu__item--review:before {
+    background-position: -50px -10px;
+}
+
+.menu__item--review:hover:before {
+    background-position: -10px -10px;
+}
+
+.menu__item--review-active:before {
+    background-position: -10px -10px;
+}
+
+.menu__item--price:before {
+    background-position: -49px -48px;
+}
+
+.menu__item--price:hover:before {
+    background-position: -10px -48px;
+}
+
+.menu__item--price-active:before {
+    background-position: -10px -48px;
 }
